@@ -17,6 +17,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* MovieAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MovieAppTests.m */; };
 		40A2FE84FED5FD21752E316C /* libPods-MovieApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D32EDA1A1A7DBE5A700B88A /* libPods-MovieApp-tvOS.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		84A821D725BA771900F34C3C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A821D625BA771900F34C3C /* Launch Screen.storyboard */; };
 		A1E0B992FF8F9DDFC6CDB812 /* libPods-MovieApp-MovieAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6D67133E0AADAC3251A086A /* libPods-MovieApp-MovieAppTests.a */; };
 		A2AE84B014A3641F2EE64AC7 /* libPods-MovieApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83CF998FF7F4B51ADF0B5068 /* libPods-MovieApp.a */; };
 		D471DF05983007E9286D1984 /* libPods-MovieApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50500C8E8B6C979A29A8715B /* libPods-MovieApp-tvOSTests.a */; };
@@ -58,6 +59,7 @@
 		50500C8E8B6C979A29A8715B /* libPods-MovieApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MovieApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MovieApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83CF998FF7F4B51ADF0B5068 /* libPods-MovieApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MovieApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A821D625BA771900F34C3C /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		8E52DC6E12F882CFFC52C547 /* Pods-MovieApp-MovieAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieApp-MovieAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MovieApp-MovieAppTests/Pods-MovieApp-MovieAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		954A2075FC6AC04D1A61D610 /* Pods-MovieApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-MovieApp-tvOSTests/Pods-MovieApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		A78C3C619E141FC908D0EA43 /* Pods-MovieApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-MovieApp-tvOS/Pods-MovieApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				84A821D625BA771900F34C3C /* Launch Screen.storyboard */,
 			);
 			name = MovieApp;
 			sourceTree = "<group>";
@@ -161,7 +164,6 @@
 				0E4716E48A0AA5D9D30B2F9F /* Pods-MovieApp-tvOSTests.debug.xcconfig */,
 				954A2075FC6AC04D1A61D610 /* Pods-MovieApp-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -340,6 +342,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A821D725BA771900F34C3C /* Launch Screen.storyboard in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
