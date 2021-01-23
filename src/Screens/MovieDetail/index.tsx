@@ -41,13 +41,14 @@ const LabelInfo = Styled.Text`
 
 interface Props {
   navigation: NavigationScreenProp<NavigationState>;
+  route: NavigationScreenProp<NavigationState>;
 }
 
-const MovieDetail = ({ navigation }: Props) => {
+const MovieDetail = ({ navigation, route }: Props) => {
   const [data, setData] = useState<IMovieDetail>();
 
   useEffect(() => {
-    const id = navigation.getParam('id');
+    const id = route.params.id;
     fetch(
       `https://yts.lt/api/v2/movie_details.json?movie_id=${id}&with_images=true&with_cast=true`
     )
